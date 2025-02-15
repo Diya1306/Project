@@ -75,7 +75,7 @@ body {
     height: 100%;
 }
 
-.container input, .container select {
+.container input, .container select , .otp{
     background-color: #eee;
     border: none;
     margin: 8px 0;
@@ -88,6 +88,7 @@ body {
     -moz-appearance: none;
     appearance: none;
 }
+
 
 .container select {
     background-color: #eee;
@@ -230,5 +231,12 @@ body {
 
 .inline-inputs select,
 .inline-inputs input {
-  width: calc(50% - 5px); /* Adjust width to fit side by side */
+  width: calc(50% - 5px); /*Adjust width to fit side by side*/
 }
+
+/* .otp{
+    background-color:rgb(32, 186, 62);
+    margin: 0 0 8px 0;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+} */
